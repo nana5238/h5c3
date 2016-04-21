@@ -1,0 +1,195 @@
+/*
+* @Author: Administrator
+* @Date:   2016-04-12 10:32:24
+* @Last Modified by:   Administrator
+* @Last Modified time: 2016-04-14 14:45:51
+*/
+
+
+/* head部分 */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #666;
+}
+
+em,
+i {
+    font-style: normal;
+}
+
+body {
+    font: 12px/1.5 tahoma, arial, Verdana, Geneva, sans-serif, '微软雅黑', '宋体';
+    color: #666;
+    background: url("../images/bg5.png") no-repeat;
+}
+
+
+/* register部分 */
+
+.center {
+    width: 1200px;
+    margin: 0 auto;
+    height: 100%;
+}
+
+.login_logo {
+    height: 112px;
+    background: url("../images/logo_login.png") no-repeat 1px 31px;
+    margin-bottom: 50px;
+}
+
+.login_logo h2 {
+    font-size: 16px;
+    font-family: Microsoft YaHei;
+    font-weight: 500;
+    line-height: 122px;
+    margin-left: 307px;
+}
+
+.register_main {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.register_box {
+    width: 772px;
+    margin: 48px auto;
+    border: 1px solid #e6e6e6;
+    padding: 0 103px 0 103px;
+    background: #fff;
+    padding-bottom: 70px;
+}
+
+.register_tab {
+    width: 746px;
+    height: 56px;
+    border-bottom: 1px solid #b4b4b4;
+    position: relative;
+    margin-bottom: 70px;
+}
+
+.register_tab ul {
+    position: absolute;
+}
+
+.register_tab ul li {
+    float: left;
+    width: 80px;
+    line-height: 81px;
+    font-size: 15px;
+    font-family: Microsoft YaHei;
+    font-weight: 400;
+    margin-right: 100px;
+    text-align: center;
+}
+
+.register_tab ul li a {
+    display: block;
+    height: 55px;
+    width: 80px;
+}
+
+.register_tab ul li a:hover {
+    color: #ff9933;
+}
+
+.on {
+    border-bottom: 2px solid #ff9933;
+    color: #ff9933;
+}
+
+.register_form {
+    width: 772px;
+}
+
+.register_form ul {
+    width: 772px;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+.register_form li {
+    margin-bottom: 30px;
+}
+
+.register_form ul li label {
+    display: block;
+    width: 206px;
+    height: 43px;
+    line-height: 43px;
+    font-size: 12px;
+    float: left;
+    text-align: right;
+}
+
+.register_form input {
+    width: 369px;
+    height: 41px;
+    border: 1px solid #9a9a9a;
+    padding: 0;
+}
+
+.register_form button {
+    width: 112px;
+    height: 43px;
+    border: 1px solid #bcbcbc;
+    background: #fff;
+    line-height: 41px;
+    font-size: 13px;
+    color: #2b2b2b;
+    font-family: Microsoft YaHei;
+    font-weight: 400;
+    padding: 0;
+}
+
+.submit p {
+    width: 371px;
+    height: 46px;
+    line-height: 46px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+.submit p input {
+    display: block;
+    float: left;
+    margin-top: 18px;
+}
+
+.submit p em {
+    color: #373737;
+}
+
+.submit p span {
+    float: right;
+    color: #373737;
+}
+
+.submit p a {
+    color: #f58f28;
+}
+
+.register_submit a {
+    width: 371px;
+    height: 43px;
+    border: none;
+    background: #ff9933;
+    color: #fff;
+    font-size: 16px;
+    font-family: Microsoft YaHei;
+    font-weight: 400;
+    margin-left: 206px;
+    display: block;
+    text-align: center;
+    line-height: 43px;
+}

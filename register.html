@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>注册页面</title>
+    <link rel="shortcut icon" href="images/1logo.png">
+    <link rel="stylesheet" type="text/css" href="css/register.css">
+    <script type="text/javascript" src="js/jquery1.12.1.min.js"></script>
+    <script type="text/javascript" src="js/register.js"></script>
+</head>
+
+<body>
+    <div class="center login_logo">
+    </div>
+    <div class="center register_main">
+        <div class="register_box">
+            <div class="register_tab">
+                <ul>
+                    <li class="on">
+                        <a href="javascripe:;" class="fuwushang">个人服务商</a>
+                    </li>
+                    <li>
+                        <a href="javascripe:;" class="qiye">企业用户</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="tab fuwushang_box">
+                <div class="register_form">
+                    <ul>
+                        <li>
+                            <label for="name">手机号：</label>
+                            <input type="text" id="tel">
+                        </li>
+                        <li>
+                            <label for="name">负责人：</label>
+                            <input type="text" id="name">
+                        </li>
+                        <li>
+                            <label for="psd">设定密码：</label>
+                            <input type="password" id="psd">
+                        </li>
+                        <li>
+                            <label for="Tpsd">确认密码：</label>
+                            <input type="password" id="Tpsd">
+                        </li>
+                        <li>
+                            <label for="tel">验证码：</label>
+                            <input type="text" id="tel" style="float: left;width: 223px; margin-right: 32px;">
+                            <button style="float: left;">获取验证码</button>
+                        </li>
+                    </ul>
+                </div>
+                <div class="submit">
+                    <p>
+                        <input type="checkbox">
+                        <em>我已阅读并同意<a href="">《拼家网用户协议》</a></em>
+                        <span>已有账号?<a href="">直接登录</a></span>
+                    </p>
+                    <div class="register_submit">
+                        <a href="./enterprisenext.html">下一步</a>
+                    </div>
+                </div>
+            </div>
+            <div class="tab qiye_box" style="display: none;">
+                <div class="register_form">
+                    <ul>
+                        <li>
+                            <label for="name">输入公司名称：</label>
+                            <input type="text" id="name">
+                        </li>
+                        <li>
+                            <label for="psd">联系人：</label>
+                            <input type="text" id="">
+                        </li>
+                        <li>
+                            <label for="psd">密码：</label>
+                            <input type="text" id="">
+                        </li>
+                        <li>
+                            <label for="psd">确认密码：</label>
+                            <input type="text" id="">
+                        </li>
+                        <li>
+                            <label for="Tpsd">手机：</label>
+                            <input type="text" id="">
+                        </li>
+                        <li>
+                            <label for="tel">验证码：</label>
+                            <input type="text" id="tel" style="float: left;width: 223px; margin-right: 32px;">
+                            <button style="float: left;">获取验证码</button>
+                        </li>
+                    </ul>
+                </div>
+                <div class="submit">
+                    <p>
+                        <input type="checkbox">
+                        <em>我已阅读并同意<a href="">《拼家网用户协议》</a></em>
+                        <span>已有账号?<a href="login.html">直接登录</a></span>
+                    </p>
+                    <div class="register_submit">
+                        <a href="./next.html">下一步</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

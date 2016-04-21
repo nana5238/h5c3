@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style type="text/css">
+    img {
+        margin: 50px 50px;
+    }
+    
+    #show {
+        margin: 200px auto;
+        text-align: center;
+        font-size: 36px;
+        color: #333;
+        font-family: "微软雅黑";
+    }
+    
+    #show span {
+        font-size: 30px;
+        color: #f93;
+        display: inline-block;
+        width: 10px;
+    }
+    
+    #show a {
+        color: #f93;
+        font-size: 30px;
+        text-decoration: underline;
+        margin-left: 10px;
+    }
+    </style>
+</head>
+
+<body>
+    <img src="images/success.png" alt="">
+    <div id="show">提交成功, <span id="num">5</span> 秒后跳转到主页<a href="#">点击跳转回首页</a></div>
+    <script type="text/javascript">
+    var t = 5;
+    setInterval("refer()", 1000);
+
+    /*function refer() {
+        if (t == 0) {
+            location = "";
+        }
+        document.getElementById('num').innerHTML = t;
+        t--;
+    }*/
+    </script>
+</body>
+
+</html>

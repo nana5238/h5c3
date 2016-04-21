@@ -1,0 +1,367 @@
+/*
+* @Author: Administrator
+* @Date:   2016-04-12 14:43:15
+* @Last Modified by:   Administrator
+* @Last Modified time: 2016-04-14 14:54:46
+*/
+
+
+/* head部分 */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #666;
+}
+
+em,
+i {
+    font-style: normal;
+}
+
+body {
+    font: 12px/1.5 tahoma, arial, Verdana, Geneva, sans-serif, '微软雅黑', '宋体';
+    color: #666;
+    background: url("../images/bg5.png") no-repeat;
+    background-size: cover;
+}
+
+.center {
+    width: 1200px;
+    margin: 0 auto;
+    height: 100%;
+}
+
+
+/* next部分 */
+
+.login_logo {
+    height: 112px;
+    background: url("../images/logo_login.png") no-repeat 1px 31px;
+    margin-bottom: 50px;
+}
+
+.next_main {
+    width: 1200px;
+    margin: 0 auto;
+    border: 1px solid #e7e7e7;
+    margin-bottom: 50px;
+    background: #fff;
+}
+
+.next_main_head {
+    width: 1198px;
+    height: 38px;
+}
+
+.next_main_head_content {
+    width: 1130px;
+    height: 37px;
+    margin: 0 auto;
+    border-bottom: 1px solid #cacaca;
+}
+
+.next_main_head_content h2 {
+    font-size: 14px;
+    line-height: 37px;
+    color: #000;
+    margin-left: 8px;
+}
+
+.next_main_nav {
+    width: 1200px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+.next_main_nav ul {
+    width: 900px;
+    height: 60px;
+    margin-left: 60px;
+}
+
+.next_main_nav li {
+    float: left;
+    width: 126px;
+    height: 60px;
+    line-height: 60px;
+    position: relative;
+    font-size: 15px;
+    font-family: Microsoft YaHei;
+    color: #333333;
+}
+
+.next_main_nav li input[type=radio] {
+    width: 90px;
+    position: absolute;
+    opacity: 0;
+    margin-top: 24px;
+    margin-left: -24px;
+}
+
+.next_main_nav li input[type=radio] + label {
+    display: block;
+    float: left;
+    width: 12px;
+    height: 12px;
+    border: 1px solid #c5c5c5;
+    margin-top: 24px;
+    margin-right: 10px;
+    display: inline-block;
+}
+
+.next_main_nav li input[type=radio]:checked + label {
+    background: url(../images/checkbox.png) no-repeat;
+    border: none;
+    border: 1px solid #fff;
+}
+
+.next_main_content {
+    width: 1200px;
+}
+
+.next_main_content_designer {
+    width: 1058px;
+    padding-left: 142px;
+}
+
+.next_main_content_designer_message {
+    width: 1058px;
+    height: 176px;
+    margin-bottom: 10px;
+}
+
+.next_main_content_designer_message h2 {
+    font-size: 14px;
+    font-family: Microsoft YaHei;
+    font-weight: 500;
+    color: #000;
+    margin-bottom: 20px;
+}
+
+.next_main_content_designer_message ul {
+    margin-bottom: 8px;
+    margin-left: 32px;
+}
+
+.next_main_content_designer_message p {
+    text-indent: 32px;
+    color: #ff9933;
+}
+
+.next_main_content_designer_submit {
+    width: 1057px;
+}
+
+.next_main_content_designer_submit input {
+    width: 200px;
+    height: 48px;
+    text-align: center;
+    line-height: 48px;
+    color: #fff;
+    background: #ff9933;
+    font-family: Microsoft YaHei;
+    font-size: 18px;
+    font-weight: 300;
+    border: none;
+    border-radius: 5px;
+    margin-left: 357px;
+    margin-bottom: 40px;
+}
+
+.next_main_content_supervisor {
+    width: 1058px;
+    padding-left: 142px;
+}
+
+.next_main_content_water {
+    width: 1058px;
+    padding-left: 142px;
+}
+
+.next_main_content_wood {
+    width: 1058px;
+    padding-left: 142px;
+}
+
+.next_main_content_paint {
+    width: 1058px;
+    padding-left: 142px;
+}
+
+.next_main_content_clean {
+    width: 1058px;
+    padding-left: 142px;
+}
+
+.next_main_content_foreman {
+    width: 1058px;
+    padding-left: 142px;
+}
+
+.next_main_content_foreman_choice {
+    width: 1000px;
+    height: 100px;
+    margin-bottom: 20px;
+    margin-left: -50px;
+}
+
+.next_main_content_foreman_choice h2 {
+    font-size: 14px;
+    font-family: Microsoft YaHei;
+    font-weight: 600;
+    color: #333333;
+}
+
+.next_main_content_foreman_type ul {
+    width: 900px;
+    height: 60px;
+    margin-left: 60px;
+}
+
+.next_main_content_foreman_type li {
+    float: left;
+    width: 102px;
+    height: 60px;
+    line-height: 60px;
+    position: relative;
+    font-size: 14px;
+    font-family: Microsoft YaHei;
+    color: #333333;
+}
+
+.next_main_content_foreman_type li input[type=checkbox] {
+    width: 90px;
+    position: absolute;
+    opacity: 0;
+    margin-top: 24px;
+    margin-left: -24px;
+}
+
+.next_main_content_foreman_type li input[type=checkbox] + label {
+    display: block;
+    float: left;
+    width: 12px;
+    height: 12px;
+    border: 1px solid #c5c5c5;
+    border-radius: 6px;
+    margin-top: 24px;
+    margin-right: 10px;
+    display: inline-block;
+}
+
+.next_main_content_foreman_type li input[type=checkbox]:checked + label {
+    background: url(../images/radio.png) no-repeat 2px;
+    border: none;
+    border: 1px solid #c5c5c5;
+}
+
+.next_main_content_foreman_choice span {
+    display: block;
+    height: 50px;
+    padding-top: 20px;
+}
+
+.next_main_content_foreman_choice span input[type=checkbox] {
+    width: 90px;
+    position: absolute;
+    opacity: 0;
+    margin-top: 4px;
+    margin-left: -24px;
+}
+
+.next_main_content_foreman_choice span input[type=checkbox] + label {
+    display: block;
+    float: left;
+    width: 12px;
+    height: 12px;
+    border: 1px solid #c5c5c5;
+    margin-top: 4px;
+    margin-right: 10px;
+    display: inline-block;
+}
+
+.next_main_content_foreman_choice span input[type=checkbox]:checked + label {
+    background: url(../images/next/checkbox.png) no-repeat;
+    border: none;
+    border: 1px solid #fff;
+}
+
+.next_main_content_designer_data {
+    width: 913px;
+    border: 1px dashed #ff9933;
+    margin-bottom: 40px;
+    padding-left: 17px;
+}
+
+.next_main_content_designer_data h3 {
+    height: 30px;
+    line-height: 30px;
+    font-family: Microsoft YaHei;
+    font-size: 14px;
+    font-weight: 400;
+    color: #333;
+    margin-top: 5px;
+}
+
+.next_main_content_designer_team {
+    width: 300px;
+    height: 98px;
+    position: relative;
+}
+
+.next_main_content_designer_team li {
+    height: 30px;
+}
+
+.next_main_content_designer_team_form input {
+    width: 137px;
+    height: 18px;
+    border: 1px solid #c5c5c5;
+    border-radius: 0;
+    background: #fff;
+    margin: 0;
+}
+
+.next_main_content_designer_team_form label {
+    display: block;
+    float: left;
+    width: 48px;
+    height: 18px;
+    text-align: right;
+    line-height: 18px;
+    margin-right: 6px;
+}
+
+.next_main_content_designer_team_form select {
+    width: 139px;
+    height: 20px;
+    border: 1px solid #c5c5c5;
+    text-align: center;
+}
+
+.next_main_content_designer_add {
+    width: 40px;
+    height: 40px;
+    background: #ff9933;
+    border-radius: 20px;
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    margin-top: -20px;
+}
+
+.next_main_content_designer_add a {
+    font-size: 44px;
+    color: #fff;
+    text-align: center;
+    line-height: 40px;
+}

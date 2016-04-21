@@ -1,0 +1,192 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>拼家网</title>
+    <meta name="title" content="拼家" />
+    <meta name="description" content="全国一站式家居全产业链服务平台" />
+    <script type="text/javascript" src="js/jquery1.12.1.min.js"></script>
+    <script type="text/javascript" src="js/jquery.onepage-scroll.js"></script>
+    <script type="text/javascript" src="js/index.js"></script>
+    <link rel="shortcut icon" href="images/1logo.png">
+    <link rel='stylesheet' type='text/css' href='css/onepage-scroll.css'>
+    <link rel="stylesheet" type="text/css" href="css/animate.css">
+    <link rel="stylesheet" type="text/css" href="css/index.css">
+    <link rel="stylesheet" type="text/css" href="css/min-index.css" media="(max-width:1350px)" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <script>
+    function formSubmit() {
+        // 验证成功提交表单, 失败则不提交
+        if (toVaild()) {
+            document.getElementById("form").submit();
+        };
+        return toVaild();
+    };
+
+    function toVaild() {
+        var name = $(".name").val();
+        var iphone = $(".iphone").val();
+        if ($(".name").val() == "" || $(".iphone").val() == "") {
+            $(".name").attr("placeholder", "不能为空");
+            $(".iphone").attr("placeholder", "不能为空");
+            return false;
+        } else {
+            if (!reg.test($(".iphone").val())) {
+                $(".iphone").val("");
+                $(".iphone").attr("placeholder", "格式不正确");
+                return false;
+            }
+        }
+        return true;
+    };
+    $(document).ready(function() {
+        $(".main").onepage_scroll({
+            sectionContainer: "section",
+            responsiveFallback: 600,
+            keyboard: true,
+            loop: false,
+            beforeMove: move,
+
+        });
+    });
+    </script>
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="main" id="box">
+            <section class="page1">
+                <div class="page_container">
+                    <h1 class="service">全国<span>一站式家居全产业链</span>服务平台</h1>
+                    <h2 class="online">7月1日<span>即将上线</span></h2>
+                    <div id="divdown1"></div>
+                    <div class="countdown">
+                        <div class="day"></div>
+                        <div class="hour"></div>
+                        <div class="minute"></div>
+                        <span class="second"></span>
+                        <div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="page2">
+                <div class="page_container">
+                    <h1><img src="images/zhan.png" alt=""></h1>
+                    <div class="page2_main">
+                        <div class="map">
+                            <span class="qingdao"><img src="images/qingdao.png"></span>
+                            <span class="beijing"><img src="images/beijing.png"></span>
+                            <span class="shanghai"><img src="images/shanghai.png"></span>
+                            <span class="nantong"><img src="images/nantong.png"></span>
+                            <i class="cricle1"></i>
+                            <i class="cricle2"></i>
+                            <i class="cricle3"></i>
+                            <i class="cricle4"></i>
+                            <i class="cricle5"></i>
+                            <i class="cricle6"></i>
+                            <i class="cricle7"></i>
+                            <i class="cricle8"></i>
+                            <i class="cricle9"></i>
+                            <i class="cricle10"></i>
+                            <i class="cricle11"></i>
+                            <i class="cricle12"></i>
+                            <i class="cricle13"></i>
+                            <i class="cricle14"></i>
+                        </div>
+                        <div class="sign_up">
+                            <p>拼家装修</p>
+                            <p>现已接受预约报名</p>
+                            <div class="sign_up_box">
+                                <ul>
+                                    <li><span>10分钟前</span>，用户：<em>130***1516</em>已报名</li>
+                                    <li><span>24小时前</span>，用户：<em>152***0710</em>已报名</li>
+                                    <li><span>2天前</span>，用户：<em>139***5238</em>已报名</li>
+                                    <li><span>5天前</span>，用户：<em>130***2103</em>已报名</li>
+                                    <li><span>8天前</span>，用户：<em>150***9778</em>已报名</li>
+                                    <li><span>12天前</span>，用户：<em>152***8493</em>已报名</li>
+                                    <li><span>15天前</span>，用户：<em>138***7771</em>已报名</li>
+                                    <li><span>23天前</span>，用户：<em>135***2530</em>已报名</li>
+                                    <li><span>30天前</span>，用户：<em>138***1714</em>已报名</li>
+                                </ul>
+                            </div>
+                            <a href="javascripe:;" class="free">立即报名</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="sign_box">
+                    <span class="close"></span>
+                    <h5>免费报名</h5>
+                    <form action="http://biaodan.51pinjia.cn:21111/" method="post" id="form">
+                        <input type="text" placeholder="姓名" class="name" name="name">
+                        <input type="text" placeholder="联系方式" class="iphone" name="tel">
+                        <input type="button" value="提交" class="btn" onclick="return formSubmit()">
+                    </form>
+                </div>
+            </section>
+            <section class="page3">
+                <div class="page_container">
+                    <h1>全面接受商家入驻</h1>
+                    <div class="zhuan">
+                        <i class="donghua_1"></i>
+                        <i class="donghua_2"></i>
+                        <i class="donghua_3"></i>
+                        <i class="donghua_4"></i>
+                        <i class="donghua_5"></i>
+                        <i class="donghua_6"></i>
+                        <i class="donghua_7"></i>
+                        <i class="donghua_8"></i>
+                        <i class="donghua_9"></i>
+                        <i class="donghua_10"></i>
+                        <i class="donghua_11"></i>
+                        <i class="donghua_12"></i>
+                        <i class="donghua_13"></i>
+                        <i class="donghua_14"></i>
+                        <i class="donghua_15"></i>
+                        <i class="donghua_16"></i>
+                        <i class="donghua_17"></i>
+                        <i class="donghua_18"></i>
+                        <i class="donghua_19"></i>
+                        <i class="donghua_20"></i>
+                        <i class="donghua_21"></i>
+                        <i class="donghua_22"></i>
+                        <i class="donghua_23"></i>
+                        <i class="donghua_24"></i>
+                        <i class="donghua_25"></i>
+                        <i class="donghua_26"></i>
+                    </div>
+                    <div class="link">
+                        <a href="./register.html" target="_blank">立即入驻</a>
+                        <a href="./requirement.html" target="_blank">入驻要求</a>
+                    </div>
+                </div>
+            </section>
+            <section class="page4">
+                <div class="page_container">
+                    <h1><img src="images/jianjie.png" alt=""></h1>
+                    <div class="text">
+                        <p>拼家网是全国一站式家居全产业链服务平台，致力于解决用户在装修过程中的全部痛点，利用高科技信息手段实现对装修全过程的精准管控，让客户更省心、省时、更省钱！ </p>
+                        <p>拼家网由北京东惠通科技有限公司投资运营，是全国第三大股票交易所挂牌公司“东惠通”（股票代码833400）的控股子公司，具有国家颁发的设计与施工双甲资质，拥有多年的施工管理经验，在行业内享有极高的知名度。</p>
+                        <p>因为有爱，所以拼家！让我们共同为您拼出精彩生活！</p>
+                    </div>
+                    <a href="./recruit.html" target="_blank">加入我们</a>
+                </div>
+            </section>
+        </div>
+        <div class="back">
+            <div class="back_in">
+                <h1>
+                <img src="images/logo.png" alt="">
+            </h1>
+                <ul>
+                    <li><a class="current about">关于我们</a></li>
+                    <li><a href="./recruit.html" target="_blank">加入我们</a></li>
+                    <li><a href="./register.html" target="_blank">立即入驻</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

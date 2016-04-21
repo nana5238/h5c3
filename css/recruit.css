@@ -1,0 +1,92 @@
+/*
+* @Author: Administrator
+* @Date:   2016-04-09 09:55:50
+* @Last Modified by:   Administrator
+* @Last Modified time: 2016-04-14 15:01:18
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.recruit {
+    width: 100%;
+    height: 1175px;
+    background: url(../images/recruit.png);
+    background-size: cover;
+    z-index: 9;
+}
+
+.recruit_center {
+    width: 1192px;
+    margin: 0 auto;
+    padding-top: 70px;
+}
+
+.recruit_center img {
+    margin-left: 40px;
+}
+
+.recruit_main {
+    overflow: hidden;
+    margin-top: 90px;
+    margin-bottom: 60px;
+}
+
+.recruit_main_l {
+    float: left;
+    color: #fff;
+    font-family: "微软雅黑";
+}
+
+.recruit_main_l h5 {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.recruit_main_l h6 {
+    font-size: 16px;
+    color: #f93;
+    margin-top: 25px;
+}
+
+.recruit_main_l p {
+    font-size: 14px;
+    width: 790px;
+    line-height: 28px;
+}
+
+.recruit_main_l p.text {
+    width: 590px;
+    margin-bottom: 35px;
+}
+
+.recruit_main_r {
+    float: right;
+}
+
+.recruit_main_r .erweima {
+    width: 176px;
+    text-align: center;
+    color: #f93;
+    margin-top: 158px;
+}
+
+.recruit_main_r .erweima p {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.recruit_main_r .erweima img {
+    margin-left: 0;
+    margin-top: 5px;
+}
+
+.recruit_main_l div {
+    margin-top: 40px;
+}
+
+.recruit_main_l div p {
+    font-size: 16px;
+}
